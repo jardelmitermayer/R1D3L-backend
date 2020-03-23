@@ -5,9 +5,9 @@ const mongoose = require('mongoose');
 const ApresentacaoSchema = new mongoose.Schema({
     
     titulo:String,
-    apresentadores:String,
+    apresentadores:[String],
     assunto:String,
-    participantes:[String]
+    participantes:[String]    
     
 });
 
