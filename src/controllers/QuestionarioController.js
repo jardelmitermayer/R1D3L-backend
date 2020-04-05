@@ -10,7 +10,7 @@ module.exports = {
     },
 
 
-    //gravando Admin no banco de dados
+    //salvando Admin no banco de dados
     async storeQuestionario (request, response) {
     
             const {perguntas,resposta,avaliadores} = request.body;
